@@ -1,0 +1,4 @@
+import pymongo
+
+URI = "mongodb://localhost:27017"
+conn = pymongo.MongoClient(URI)
